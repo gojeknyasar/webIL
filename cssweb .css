@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding-top: 260px; 
+    background-color: #ccd4dd;
+    background-size: cover;
+}
+
+.header{
+    width: 1280px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.Side{
+    float: left;
+    padding: 0px 10px;
+    margin: auto;
+    width: 25%;
+    background-color: #19183B;
+    border-radius: 10px;
+
+}
+
+ul {
+    list-style: none;
+    margin: 190px 0 0 0;
+    padding: 0;
+    background-color: #708993;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 60px;
+    text-align: center;
+}
+
+ul li{
+    font-family: "Cream Yoghurt";
+    display: inline-block;
+    position: relative;
+    padding: 0 8px;
+}
+
+ul li a{
+    line-height: 60px;
+    padding: 0 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: #E7F2EF;
+    color: #19183B;
+}
+
+ul li ul.dropdown {
+    background-color: #708993;
+    height: auto;
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    top: 100%;
+    left: 25%;  
+    max-width: 200px;
+    text-align: left;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+ul li.has-dropdown:hover > ul.dropdown {
+    display: block;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    width: 100%;
+}
+
+ul li ul.dropdown li a {
+    padding: 10px 18px;
+    color: white;
+    line-height: normal;
+}
+
+ul li ul.dropdown li a:hover {
+    background-color: #19183B;
+}
+
+.aaaa{
+    font-family: "Chonky Bunny";
+    color: #E7F2EF;
+    background-color: #19183B;
+    padding: 25px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: "Cream Yoghurt";
+    src: url("Cream\ Yoghurt.ttf");
+}
+
+@font-face {
+    font-family: "Chonky Bunny";
+    src: url("Chonky\ Bunny.ttf");
+}
+
